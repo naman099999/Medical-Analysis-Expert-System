@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4efef;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 2px solid #28292b; 
+}
+
+.form-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dropdowns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dropdown {
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none; 
+    /* background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="5"><polygon points="0,0 10,0 5,5" fill="%23000"/></svg>'); Add custom arrow icon */
+    /* background-repeat: no-repeat;
+    background-position: right 10px center; */
+}
+
+
+.submit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1571d2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #08dcf486; 
+    color:#28292b
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h1 class="form-heading">Medical Analysis Expert System</h1>
+            <div class="dropdowns">
+                <div class="dropdown">
+                    <label for="dropdown1">Headache:</label>
+                    <select id="dropdown1" name="dropdown1">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Cough:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Fainting:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Sunken Eyes:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <div class="dropdown">
+                    <label for="dropdown2">Fever:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Back Pain:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Chest Pain:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Restlessness:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Sore Throat:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Low Body Temperature:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label for="dropdown2">Blurred Vision:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+
+                <div class="dropdown">
+                    <label for="dropdown2">Nausea:</label>
+                    <select id="dropdown2" name="dropdown2">
+                        <option value="yes">No</option>
+                        <option value="no">Low</option>
+                        <option value="no">High</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
